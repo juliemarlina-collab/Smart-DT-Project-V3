@@ -1,0 +1,36 @@
+SMART DT V3 URGENT REPAIR UPLOAD
+
+This package fixes the issue where js/ui.js content was accidentally uploaded into index.html.
+
+UPLOAD RULE:
+1. Open this ZIP.
+2. Upload the CONTENTS inside this folder to the root of your GitHub repo.
+3. Do NOT upload the folder itself as a folder.
+4. Replace/overwrite existing files with the same names.
+
+Your GitHub root must show:
+- index.html
+- welcome.html
+- login.html
+- dashboard.html
+- phase01-empathy.html
+- phase02-define.html
+- phase03-ideation.html
+- phase04-prototype.html
+- phase05-test.html
+- progress.html
+- profile.html
+- README.md
+- css/style.css
+- js/app.js
+- js/data.js
+- js/ui.js
+- js/phase-engine.js
+
+After upload, test these URLs:
+https://juliemarlina-collab.github.io/Smart-DT-Project-V3/index.html
+https://juliemarlina-collab.github.io/Smart-DT-Project-V3/js/ui.js
+https://juliemarlina-collab.github.io/Smart-DT-Project-V3/css/style.css
+
+If index.html shows an app splash screen then redirects, it is fixed.
+If index.html shows code starting with /** Smart DT Project V3 — js/ui.js */, it means the wrong file was uploaded into index.html again.
